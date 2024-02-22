@@ -1,0 +1,86 @@
+@font-face {
+    font-family: super_sunday;
+    src: url(/super_sunday/Super\ Sunday\ Personal\ Use.ttf);
+}
+
+body {
+
+    background-color: rgb(188, 216, 241);
+    text-align: center;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+#calculator {
+    max-width: 360px;
+    background-image: url(https://down-br.img.susercontent.com/file/7860fd85a5949ffe884f023116979154_tn);
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 6px 6px 5px hsl(216, 95%, 23%);
+}
+
+#display {
+    width: 95%;
+    height: 70px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+ background-color: rgb(190, 227, 245);
+    border: none;
+    box-sizing: border-box;
+}
+
+button {
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 38, 0);
+    box-shadow: 5px 5px 5px #032f72;
+    border-radius: 5px;
+}
+
+.operator {
+    color: black;
+    background-color: rgb(143, 195, 238);
+}
+
+#ac {
+    color: rgb(0, 0, 0);
+}
+
+.equal {
+    width: calc(50% - 12px);
+    background-color: rgb(255, 255, 255);
+}
+
+button:houve {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(.9);
+    box-shadow: 15px;
+}
+
+h1 {
+    font-size: 300%;
+    font-family: super_sunday;
+    color: rgb(29, 29, 110);
+}
+
+footer{
+    font-family: super_sunday;
+    font-size: 150%;
+}
